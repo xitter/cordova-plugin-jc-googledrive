@@ -286,9 +286,6 @@ public class GoogleDrive extends CordovaPlugin implements GoogleApiClient.Connec
     private void fileList(final boolean appFolder) {
 
         Query.Builder qb = new Query.Builder();
-        qb.addFilter(Filters.and(
-                Filters.eq(SearchableField.MIME_TYPE, "application/octet-stream"),
-                Filters.eq(SearchableField.TRASHED, false)));
 
         if(appFolder) {
             DriveId appFolderId = Drive.DriveApi.getAppFolder(mGoogleApiClient).getDriveId();
