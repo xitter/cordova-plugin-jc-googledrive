@@ -1,6 +1,6 @@
 {
   "name": "cordova-xitter-googledrive",
-  "version": "0.1.0",
+  "version": "1.5.0",
   "description": "Cordova Google Drive Plugin",
   "cordova": {
     "id":"cordova-xitter-googledrive",
