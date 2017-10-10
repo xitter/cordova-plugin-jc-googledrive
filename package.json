@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-jc-googledrive",
+  "name": "cordova-xitter-googledrive",
   "version": "1.1.0",
   "description": "Cordova Google Drive Plugin",
   "cordova": {
-    "id":"cordova-plugin-jc-googledrive",
+    "id":"cordova-xitter-googledrive",
     "platforms": [
       "android",
       "ios"
